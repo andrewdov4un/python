@@ -32,6 +32,7 @@ def third_task():
     else:
         print("Wrong grade.")
 
+# Fourth Task
 def fourth_task():
     try:
         number1 = int(input("enter first number: "))
@@ -45,7 +46,7 @@ def fourth_task():
     except ZeroDivisionError:
         print("you can't divide by zero!")
 
-
+# Sixth Task
 def sixth_task():
     side1 = float(input("enter the length of side 1: "))
     side2 = float(input("enter the length of side 2: "))
@@ -61,6 +62,7 @@ def sixth_task():
     else:
         print("A triangle doesn't exist")
 
+# Seventh Task
 def seventh_task():
     num1 = float(input("enter first number: "))
     num2 = float(input("enter second number: "))
