@@ -15,6 +15,7 @@ def second_task():
         fahrenheit = "wrong"
 
 # Third Task
+
 def third_task():
     score = float(input("Enter your score to compare : "))
     if score >= 90:
@@ -30,8 +31,6 @@ def third_task():
     else:
         grade = 2
     print(grade)
-
-third_task()
 
 # Fourth Task
 def fourth_task():
