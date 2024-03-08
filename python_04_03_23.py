@@ -16,21 +16,22 @@ def second_task():
 
 # Third Task
 def third_task():
-    grade = input("Enter the grade.")
-    if grade in ["A", "B", "C", "D", "F"]:
-        if grade == "A":
-            score = 90
-        elif grade == "B":
-            score = 80
-        elif grade == "C":
-            score = 70
-        elif grade == "D":
-            score = 60
-        elif grade == "F":
-            score = 50
-        print(score)
+    score = float(input("Enter your score to compare : "))
+    if score >= 90:
+        grade = 5
+    elif score >= 80:
+        grade = 4.5
+    elif score >= 70:
+        grade = 4
+    elif score >= 60:
+        grade = 3.5
+    elif score >= 50:
+        grade = 3
     else:
-        print("Wrong grade.")
+        grade = 2
+    print(grade)
+
+third_task()
 
 # Fourth Task
 def fourth_task():
@@ -80,5 +81,3 @@ def seventh_task():
     elif operation == "*":
         result = num1 * num2
     print(result)
-
-seventh_task()
